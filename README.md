@@ -45,7 +45,7 @@ The frontend is a React 18 SPA built with Vite, Tailwind CSS, and shadcn/ui.
 5. **Orders Page**: Place a new order for the Product ID and Warehouse ID. Submit the order.
 6. Check the Inventory Page again to see the stock decrement correctly.
 7. To test failure: Try placing an order for more stock than is available. The system will throw an insufficient stock error, and the UI will reflect the order failure.
-
+Security Architecture
 ## Troubleshooting
 
 - If a service fails to start immediately due to database unavailability, docker-compose will automatically restart it.
